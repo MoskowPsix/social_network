@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="">
     App work
     <RouterLink :to="{name: 'index'}">Index</RouterLink>
     <RouterLink :to="{name: 'page'}">Page</RouterLink>
