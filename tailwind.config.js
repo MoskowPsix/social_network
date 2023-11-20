@@ -1,17 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  purge: [
-    './resources/**/*.blade.php',
-    './resources/**/*.js',
-    './resources/**/*.vue',
+  content: [
+    "./resources/**/*.vue",
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
   ],
-   darkMode: false, // or 'media' or 'class'
-   theme: {
-     extend: {},
-   },
-   variants: {
-     extend: {},
-   },
-   plugins: [],
+  darkMode: 'media', // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
 

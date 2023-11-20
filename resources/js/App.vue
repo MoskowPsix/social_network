@@ -1,10 +1,13 @@
 <template>
-<div class="">
-    App work
-    <RouterLink :to="{name: 'index'}">Index</RouterLink>
-    <RouterLink :to="{name: 'page'}">Page</RouterLink>
-    <RouterView/>
+<div class="bg-gray-800 text-gray-300">
+    App work<br>
+    <router-link :to="{name: 'index'}">To Index</router-link><br>
+    <router-link :to="{name: 'page'}">To Page</router-link><br>
 </div>
+<router-view/>
+<!-- <div class="bg-gray-500 w-full h-64">
+<router-view></router-view>
+</div> -->
 </template>
 
 <script>
